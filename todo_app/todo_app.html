@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<style type="text/css">
+	body {
+		font-family: roboto;
+	}
+	.finished {
+		color:grey;
+		font-style:italic;
+	}
+	.containerList {
+		border: 1px solid black;
+		height: 200px;
+		padding: 25px;
+		margin-left: 25px;
+		margin-right:25px;
+	}
+	button {
+		margin: 2px;
+	}
+	.textPadding {
+		padding: 5px;
+	}
+	.interfaceContainer {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+	.titleBar {
+		margin-left: 25px;
+	}
+</style>
+	<title>To-Do App</title>
+
+</head>
+<body>	
+	<h2 class="titleBar">To-Do List</h2>
+	<ul class="containerList"></ul>
+
+	<div class="interfaceContainer">
+		<input name="newTodo" class="newTodo" placeholder="input todo" />
+		<button type="button" id="addListElement">submit</button>
+		<button type="button" id="showCompleted">show completed</button>
+		<button type="button" id="showUncompleted">show uncompleted</button>
+		<button type="button" id="showAll">show all</button>
+		<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+		<script type="text/javascript" src="todo_app.js"></script>	
+	</div>
+	
+</body>
+</html>
